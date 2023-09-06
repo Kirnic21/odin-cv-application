@@ -1,0 +1,70 @@
+
+.div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: blue;
+}
+.container{
+  display: flex;
+  gap:5px;
+  justify-content: space-around;
+}
+.inputField{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5px
+}
+.responsibility{
+    max-width: 200px;
+    
+}
+.inputs{
+  display: flex;
+  gap:15px;
+  flex-direction: column;
+  background-color:#344E41;
+  color:#DAD7CD;
+}
+.disabled{
+  display:none;
+}
+.personalInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border-top: black;
+  border-style: solid;
+  background-color: blueviolet;
+  align-items: center;
+}
+.disabledButton{
+  display:none;
+}
+.jobExperience{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border-top: black;
+  border-style: solid;
+  background-color: blueviolet;
+  align-items: center;
+}
+.school{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border-top: black;
+  border-style: solid;
+  background-color: blueviolet;
+  align-items: center;
+}
+.large{
+  max-width: 100%;
+  width: 100%;
+}
